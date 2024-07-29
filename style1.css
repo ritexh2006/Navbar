@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ProductSans;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+ul {padding-left: 0rem;}
+
+.main{
+    background-color: #000;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .desktop-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #AD2847;
+    position: fixed;
+  }
+  
+  .nav-desk-logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #7ff681; */
+  }
+  
+  .nav-cntr-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    gap: 3vw;
+    /* background-color: #7faff6; */
+  }
+  
+  .nav-rght-menu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #dc7ff6; */
+  }
+  
+  .nav-cntr-menu a{
+   text-decoration: none;
+   color: #CEA94D;
+  } 
+  
+  .nav-bg{
+    background-image: url(assets/img/Pattern-1.png);
+    background-size: 50%;
+    background-position: center;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .section-1{
+    background-color: #f67f7f;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .section-2{
+    background-color: #7ff681;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .menu-btn {
+    background-color: #CEA94D;
+    width: 150px;
+    border: 1px solid #CEA94D;
+    font-family: paragraph;
+    padding: 8px 0px 8px 0px;
+    position: absolute;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .menu-btn:hover {
+    background-color: #CEA94D;
+    border: 1px solid #CEA94D;
+  }
+  
+  .menu-btn a{
+    text-decoration: none;
+    color: #fff;
+  }
